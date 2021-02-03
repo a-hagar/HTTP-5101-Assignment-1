@@ -7,13 +7,7 @@ using System.Web.Http;
 
 namespace HTTP_5101_Assignment_1.Controllers
 {
-    public class SquareController : ApiController
+    public class GreetingController : ApiController
     {
-        //GET api/number/
-        public int Get(int id)
-        {
-
-            return (id^2);
-        }
     }
 }
