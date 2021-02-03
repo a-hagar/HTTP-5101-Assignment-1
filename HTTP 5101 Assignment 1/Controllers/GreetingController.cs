@@ -9,5 +9,6 @@ namespace HTTP_5101_Assignment_1.Controllers
 {
     public class GreetingController : ApiController
     {
+
     }
 }
