@@ -9,6 +9,15 @@ namespace HTTP_5101_Assignment_1.Controllers
 {
     public class GreetingController : ApiController
     {
+        //GET api/Greeting/ Greetings to People!
+        public string Post()
+        {
+            return "Hello World";
+        }
 
+        public string Get(int id)
+        {
+            return "Greetings to"+id+"people!";
+        }
     }
 }
