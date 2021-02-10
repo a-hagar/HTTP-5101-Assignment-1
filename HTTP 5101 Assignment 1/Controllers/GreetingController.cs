@@ -17,7 +17,8 @@ namespace HTTP_5101_Assignment_1.Controllers
 
         public string Get(int id)
         {
-            return "Greetings to"+id+"people!";
+            string message = "Greetings to " + id + " people!" ;
+            return message;
         }
     }
 }

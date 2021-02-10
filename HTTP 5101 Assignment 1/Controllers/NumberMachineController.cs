@@ -9,6 +9,10 @@ namespace HTTP_5101_Assignment_1.Controllers
 {
     public class NumberMachineController : ApiController
     {
-        //return string to 
+        public int Get(int id)
+        {
+            int final = ( ( id * 5 ) / 2 ) + 7 - 4;
+            return final;
+        }
     }
 }
