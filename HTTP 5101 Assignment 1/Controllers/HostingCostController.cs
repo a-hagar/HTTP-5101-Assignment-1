@@ -11,7 +11,7 @@ namespace HTTP_5101_Assignment_1.Controllers
 
     
     {
-        public string Get(int id)
+        public IEnumerable<string> Get(int id)
 
         {
             int FN = 14;
@@ -29,7 +29,9 @@ namespace HTTP_5101_Assignment_1.Controllers
             string message2 = "HST 13% = $" + taxedCost + " CAD.";
             string message3 = "Total = $" + finalCost + " CAD.";
 
-            return message + " " + message2 + " " + message3;
+            return new string[] { message, message2, message3 };
+
+        
         }
         
 
